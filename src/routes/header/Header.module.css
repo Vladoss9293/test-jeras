@@ -1,0 +1,38 @@
+.headBody {
+    display: flex;
+    height: 60px;
+    opacity: 0.9;
+    width: 100%;
+    background-color: rgb(96, 87, 110);
+    box-shadow: 0px 0px 10px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+
+.jerasImage img {
+    width: 140px;
+    height: 60px;
+}
+
+.SignUp {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
+    padding: 30px;
+}
+
+.SignUpText {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(228, 204, 250);
+    margin-right: 15px;
+}
+
+.SignInpText {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(228, 204, 250);
+    margin-right: 10px;
+}

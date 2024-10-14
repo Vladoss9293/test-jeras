@@ -1,0 +1,24 @@
+.boardRow {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.otstup {
+    margin-top: 50px;
+}
+
+.square {
+    font-weight: 200;
+    font-size: 52px;
+    width: 100px;
+    height: 100px;
+}
+
+.status {
+    margin-bottom: 15px;
+    color: #bcbcbc;
+    text-align: center;
+}

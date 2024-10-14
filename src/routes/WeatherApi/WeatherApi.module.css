@@ -1,0 +1,25 @@
+.block {
+    width: 850px;
+    height: 250px;
+    opacity: 0.9;
+    background-color: #bcbcbc;
+    border-radius: 20px;
+}
+
+.parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.text {
+    color: rgb(58, 58, 58);
+    text-align: center;
+}
+
+.textWeather {
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+}

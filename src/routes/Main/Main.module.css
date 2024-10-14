@@ -1,0 +1,16 @@
+.styleBlock {
+    display: inline-block;
+    justify-content: space-between;
+    margin: 60px 70px 10px 70px;
+    width: 250px;
+    height: 250px;
+    border: 2px solid rgb(70, 64, 64);
+    box-shadow: 0px 0px 10px;
+    border-radius: 10px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
