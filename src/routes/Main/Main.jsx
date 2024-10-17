@@ -6,6 +6,7 @@ import screenTimer from '../../image/main/mini-game/screenTimer.webp';
 import ticTac from '../../image/main/mini-game/tic-tac.webp';
 import weather from '../../image/main/block/weather.webp';
 import dota2 from '../../image/main/block/dota2.webp';
+import blackjack from '../../image/main/block/blackjack.webp';
 import { Link } from 'react-router-dom';
 
 function Main() {
@@ -46,9 +47,9 @@ function Main() {
             </Link>
         </div>
         <div className={styleMain.styleBlock}>
-            <a href="">
-                <img src="" alt="" />
-            </a>
+            <Link to="/black-jack">
+                <img src={blackjack} alt="" />
+            </Link>
         </div>
     </div>
 }

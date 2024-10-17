@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Header() {
     return <header className={styleHeader.headBody}>
         <div className={styleHeader.jerasImage}>
-            <Link to="/">
+            <Link to="/test-jeras/">
                 <img src={JerasImage} alt="Jeras" />
             </Link>
         </div>

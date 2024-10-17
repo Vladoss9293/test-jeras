@@ -16,12 +16,13 @@ import CountGame from './routes/CountGame/CountGame.jsx';
 import TikTac from './routes/Tik-Tac/TikTac.jsx';
 import WeatherApi from './routes/WeatherApi/WeatherApi.jsx';
 import Dota2Home from './routes/dota2/Dota2Home.jsx';
+import BlackJack from './routes/BlackJack/BlackJack.jsx';
 
 
  
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/test-jeras/',
     element: <Root />,
     errorElement: <ErrorPage404 />,
   },
@@ -60,6 +61,10 @@ const router = createBrowserRouter([
   {
     path: '/dota2-sound',
     element: <Dota2Home />
+  },
+  {
+    path: '/black-jack',
+    element: <BlackJack />
   }
 ]);
 
